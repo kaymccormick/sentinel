@@ -50,7 +50,7 @@
             support:GridViewSort.SortGlyphAscending="/Resources/Glyphs/SortUpArrow.png"
             support:GridViewSort.SortGlyphDescending="/Resources/Glyphs/SortDownArrow.png"
             ItemContainerStyle="{StaticResource ActivityRowStyle}"
-            ItemsSource="{Binding Activity.Details}">
+            ItemsSource="{Binding Activity.Details}" FontFamily="Lucida Console" FontSize="16">
             <ListView.ContextMenu>
                 <ContextMenu
                     x:Name="ActivityLbContextMenu">

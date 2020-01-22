@@ -73,7 +73,7 @@
         <Ribbon
             SelectedIndex="0"
             DockPanel.Dock="Top"
-            ShowQuickAccessToolBarOnTop="False" Margin="0,0,-0.4,0">
+            ShowQuickAccessToolBarOnTop="False" Margin="0,0,-0.4,0" Visibility="Collapsed">
 
             <Ribbon.ApplicationMenu>
                 <RibbonApplicationMenu>
@@ -468,7 +468,6 @@
         </Ribbon>
 
         <DockPanel>
-            <upgrader:UpgradeNotification DockPanel.Dock="Top" DataContext="{Binding UpgradeService}" />
             <TabControl x:Name="tabControl"
                         Grid.Row="1">
             </TabControl>
